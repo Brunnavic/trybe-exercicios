@@ -3,6 +3,7 @@ h1,p {
 }
   li:hover {
     background-color: blueviolet;
+    list-style: none;
     
   }
   li:active {
