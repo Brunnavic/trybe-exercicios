@@ -1,11 +1,32 @@
-h1,p {
-    text-align: center;
-}
-  li:hover {
-    background-color: blueviolet;
-    list-style: none;
+div:hover {
+    border: 6px solid black;
     
-  }
-  li:active {
+}
+div:active {
+    color: bisque;
+}
+div:nth-last-of-type(1) > h3 {
+    font-style: italic;
+    background-color:khaki;
+}
+div:nth-last-of-type(2) {
+    background-color:darkblue;
+}
+div:nth-last-of-type(3) {
+    background-color: coral;
+    font-size: 20px;
+}
+div:nth-last-of-type(4) > h3 {
+    font-style: italic;
+    background-color: palevioletred;
+
+}
+div:nth-last-of-type(5){
+    background-color: red;
+}
+h1 {
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
+    background-color: black;
+    color: bisque;
+}
