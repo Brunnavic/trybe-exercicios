@@ -32,3 +32,34 @@ ul li:nth-last-of-type(3){
 .Java {
     background-color: pink;
 }
+.negrito:hover {
+    font-weight: bold;
+    color:green
+}
+ul li .negrito:active {
+    background-color:darkmagenta;
+    border: 2px solid black;
+}
+ul li #amarelo:active {
+    background-color:darkslategrey;
+    border: 2px solid black;
+}
+ul li #preto:active {
+    background-color: darkslategrey;
+    border: 2px solid black;
+}
+ul li #laranja:active {
+    background-color: darkslategray;
+    border: 2px solid black;
+}
+    
+#amarelo:hover {
+    color: yellow;
+}
+#preto:hover {
+  color: black;
+}
+
+#laranja:hover {
+    color: orange;
+}
